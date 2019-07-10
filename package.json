@@ -1,0 +1,23 @@
+{
+  "name": "npm-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm install -D yarn webpack",
+    "uninstall-dev-tools": "npm uninstall yarn webpack",
+    "link-bins": "npm link",
+    "unlink-bins": "npm unlink"
+  },
+  "bin": {
+    "greet-world": "bins/world-greeting.js",
+    "greet-universe": "bins/universe-greeting.js"
+  },
+  "author": "Elio Zevallos",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
